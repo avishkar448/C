@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function onsend(){
+            var name=document.getElementById("name").value;
+            var message=document.getElementById("m");
+            if(name==""){ 
+                message.innerHTML="Stranger ,please tell me your name!";
+            }
+            else{ 
+                var x=new XMLHttpRequest();
+                x.onreadystatechange=function(){
+                    if(x.readyState==4&& this.status==200){ 
+                        message.innerHTML="Hello Master!!";
+                    }
+                    else{ 
+                        message.innerHTML=name+"I dont know you!";
+                    }
+                }
+                x.open("get","page13.php");
+                x.send();
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome</h1><br>
+    Name:
+    <input type="text" id="name" onkeyup="onsend()">
+    <p id="m"></p><br>
+    
+    <script src="jquery.min.js"></script>
+</body>
+</html>

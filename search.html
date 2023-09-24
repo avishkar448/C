@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       function avi(){ 
+        var ob=false;
+        
+        if(window.XMLHttpRequest){ 
+            ob=new XMLHttpRequest();
+        }
+        else if(window.ActiveXObject){
+            ob=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        var str1="t1="+document.getElementById("a").value;
+        
+       }
+            
+    
+    </script>
+</head>
+<body>
+    <form action="" id="f">
+
+        Search:
+        <input type="text" id="a"><br>
+    </form>
+    <div id="container"></div>
+    <script src="jquery.min.js"></script>
+    
+</body>
+</html>

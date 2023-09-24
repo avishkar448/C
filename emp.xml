@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empd>
+    <emp>
+        <no>1</no>
+        <name>Avishkar</name>
+        <salary>30000</salary>
+    </emp>
+    <emp>
+        <no>2</no>
+        <name>Shivraj</name>
+        <salary>40000</salary>
+    </emp>
+    <emp>
+        <no>3</no>
+        <name>Ganraj</name>
+        <salary>50000</salary>
+    </emp>
+    <emp>
+        <no>4</no>
+        <name>Amol</name>
+        <salary>45000</salary>
+    </emp>
+    <emp>
+        <no>5</no>
+        <name>Omkar</name>
+        <salary>40000</salary>
+    </emp>
+</empd>
