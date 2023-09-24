@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.collage","l":"java_tag_for_docclasses"}];updateSearchResults();
